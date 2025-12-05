@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<title>Instagram</title>
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar bg-light">
+            <div class="container">
+
+                <a class="navbar-brand me-2" href="https://www.instagram.com">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <h5 class="marca m-0">Instagram</h5>
+
+                <div class="col"></div>
+                <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#createpost">Create
+                    a new post</button>
+
+                <div class="dropdown ms-2">
+                    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fa-solid fa-gear"></i>
+                    </a>
+
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Profile</a></li>
+                        <li><a class="dropdown-item" href="#">Friends</a></li>
+                        <li><a class="dropdown-item text-danger border-top" href="#">Log out</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </nav>
+
+        <div class="container-fluid mx-auto">
+            <!--tabs grid y post-->
+            <div class="row mt-3">
+                <ul class="nav nav-tabs justify-content-center border-0 ">
+                    <li class="nav-item">
+                        <a class="nav-link active border-0" aria-current="page" href="#grid-image" data-bs-toggle="tab"
+                            role="tab"><i class="fa-solid fa-table-cells fa-lg"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link border-0" href="#post" data-bs-toggle="tab" role="tab"><i
+                                class="fa-solid fa-square fa-lg"></i></a>
+                    </li>
+                </ul>
+                <!--Grid-->
+                <div class="container-fluid tab-content mt-3">
+                    <div class="tab-pane active" id="grid-image" role="tabpanel">
+                        <div class="row">
+                            <div class="card col-4 border-0 p-1">
+                                <img src="./img/halcon_peregrino.jpg" class="object-fit-cover col rounded" alt="...">
+                            </div>
+                            <div class="card col-4 border-0 p-1">
+                                <img src="./img/van gogh.jpg" class="object-fit-cover col rounded" alt="...">
+                            </div>
+                            <div class="card col-4 border-0 p-1">
+                                <img src="./img/sr71.jpg" class="object-fit-cover col rounded" alt="...">
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="card col-4 border-0 p-1">
+                                <img src="./img/david.jpg" class="object-fit-cover col rounded" alt="...">
+                            </div>
+                            <div class="card col-4 border-0 p-1">
+                                <img src="./img/rachel_bladerunner.jpg" class="object-fit-cover col rounded" alt="...">
+                            </div>
+                            <div class="card col-4 border-0 p-1">
+                                <img src="./img/kandinsky comp 8.jpg" class="object-fit-cover col rounded" alt="...">
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="card col-4 border-0 p-1">
+                                <img src="./img/la persitencia del tiempo-dali.jpg" class="object-fit-cover col rounded"
+                                    alt="...">
+                            </div>
+                            <div class="card col-4 border-0 p-1">
+                                <img src="./img/dune.jpg" class="object-fit-cover col rounded" alt="...">
+                            </div>
+                            <div class="card col-4 border-0 p-1">
+                                <img src="./img/prodigy.jpg" class="object-fit-cover col rounded" alt="...">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Post-->
+
+                    <div class="tab-pane" id="post">
+
+                        <!--Post1-->
+                        <div class="row justify-content-center mb-3">
+                            <div class="card p-0" style="width:600px;">
+                                <div class="card-head p-4">
+                                    <h5 class="card-title m-0">La flecha del cielo: el halcón peregrino en su máxima
+                                        elegancia
+                                    </h5>
+                                    <span class="date">11/25</span>
+                                </div>
+                                <img src="./img/halcon_peregrino.jpg" class="card-img-top rounded-0 m-0"
+                                    alt="Halcón Peregrino">
+                                <div class="card-body p-4">
+                                    <p class="card-text">El halcón peregrino, uno de los animales más veloces del
+                                        planeta,
+                                        combina precisión, fuerza y una belleza natural inconfundible. Esta publicación
+                                        celebra su impacto en el equilibrio ecológico y su presencia majestuosa en los
+                                        cielos.</p>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                        <!--Post2-->
+                        <div class="row justify-content-center mb-3">
+                            <div class="card p-0" style="width:600px;">
+                                <div class="card-head p-4">
+                                    <h5 class="card-title m-0">Tormenta interior: el expresivo “Trigal con cuervos”
+                                    </h5>
+                                    <span class="date">10/25</span>
+                                </div>
+                                <img src="./img/van gogh.jpg" class="card-img-top rounded-0 m-0"
+                                    alt="Trigal con cuervos de Vincent van Gogh">
+                                <div class="card-body p-4">
+                                    <p class="card-text">Van Gogh plasmó en esta obra un paisaje vibrante y turbulento,
+                                        cargado de simbolismo emocional. Sus pinceladas intensas y el vuelo inquieto de
+                                        los cuervos nos invitan a reflexionar sobre la fuerza del estado anímico en el
+                                        arte.</p>
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <!--Post3-->
+                        <div class="row justify-content-center mb-3">
+                            <div class="card p-0" style="width:600px;">
+                                <div class="card-head p-4">
+                                    <h5 class="card-title m-0">SR-71: la sombra supersónica que redefinió la aviación
+                                    </h5>
+                                    <span class="date">08/25</span>
+                                </div>
+                                <img src="./img/sr71.jpg" class="card-img-top rounded-0 m-0" alt="SR-71 Blackbird">
+                                <div class="card-body p-4">
+                                    <p class="card-text">El legendario SR-71 Blackbird continúa asombrando por su
+                                        velocidad, tecnología y diseño futurista. Más que un avión, fue una hazaña de
+                                        ingeniería que desafió los límites del vuelo humano.</p>
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <!--Post4-->
+                        <div class="row justify-content-center mb-3">
+                            <div class="card p-0" style="width:600px;">
+                                <div class="card-head p-4">
+                                    <h5 class="card-title m-0">David: la delgada línea entre creación y creador
+                                    </h5>
+                                    <span class="date">07/25</span>
+                                </div>
+                                <img src="./img/david.jpg" class="card-img-top rounded-0 m-0"
+                                    alt="David (androide) de Alien / Prometheus">
+                                <div class="card-body p-4">
+                                    <p class="card-text">En la saga Alien y Prometheus, David representa una inquietante
+                                        exploración de la inteligencia artificial, la ética y la ambición humana. Su
+                                        complejidad lo convierte en uno de los androides más memorables del cine
+                                        moderno.</p>
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <!--Post5-->
+                        <div class="row justify-content-center mb-3">
+                            <div class="card p-0" style="width:600px;">
+                                <div class="card-head p-4">
+                                    <h5 class="card-title m-0">Rachael: humanidad en la mirada de un replicante
+                                    </h5>
+                                    <span class="date">01/25</span>
+                                </div>
+                                <img src="./img/rachel_bladerunner.jpg" class="card-img-top rounded-0 m-0"
+                                    alt="Rachael de Blade Runner">
+                                <div class="card-body p-4">
+                                    <p class="card-text">Rachael encarna la pregunta central de Blade Runner: ¿qué
+                                        define realmente a un ser humano? Su fragilidad, fuerza y misterio han
+                                        convertido a este personaje en un ícono de la ciencia ficción.</p>
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <!--Post6-->
+                        <div class="row justify-content-center mb-3">
+                            <div class="card p-0" style="width:600px;">
+                                <div class="card-head p-4">
+                                    <h5 class="card-title m-0">Geometría en armonía: Kandinsky y el lenguaje del color
+                                    </h5>
+                                    <span class="date">04/25</span>
+                                </div>
+                                <img src="./img/kandinsky comp 8.jpg" class="card-img-top rounded-0 m-0"
+                                    alt="Composición 8 de Kandinsky">
+                                <div class="card-body p-4">
+                                    <p class="card-text">Composición 8 es un estallido de formas y colores que demuestra
+                                        el dominio absoluto de Kandinsky sobre la abstracción. Una obra que equilibra
+                                        matemáticas y emoción en un mismo lienzo.</p>
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <!--Post7-->
+                        <div class="row justify-content-center mb-3">
+                            <div class="card p-0" style="width:600px;">
+                                <div class="card-head p-4">
+                                    <h5 class="card-title m-0">El tiempo derretido: Dalí y el sueño surrealista
+                                    </h5>
+                                    <span class="date">03/25</span>
+                                </div>
+                                <img src="./img/la persitencia del tiempo-dali.jpg" class="card-img-top rounded-0 m-0"
+                                    alt="La persistencia de la memoria de Dalí">
+                                <div class="card-body p-4">
+                                    <p class="card-text">Este cuadro desafía la lógica con sus icónicos relojes blandos,
+                                        convirtiendo al tiempo en una ilusión maleable. Dalí abre una ventana al
+                                        subconsciente donde realidad y fantasía se funden.</p>
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <!--Post8-->
+                        <div class="row justify-content-center mb-3 ">
+                            <div class="card p-0" style="width:600px;">
+                                <div class="card-head p-4">
+                                    <h5 class="card-title m-0">Dune: un universo de arena, poder y destino
+                                    </h5>
+                                    <span class="date">03/25</span>
+                                </div>
+                                <img src="./img/dune.jpg" class="card-img-top rounded-0 m-0" alt="Dune (película)">
+                                <div class="card-body p-4">
+                                    <p class="card-text">La adaptación de Dune nos sumerge en un mundo épico donde
+                                        política, ecología y espiritualidad se entrelazan. Una obra cinematográfica que
+                                        redefine la ciencia ficción contemporánea.</p>
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <!--Post9-->
+                        <div class="row justify-content-center mb-3">
+                            <div class="card p-0" style="width:600px;">
+                                <div class="card-head p-4">
+                                    <h5 class="card-title m-0">Prodigy Corp: la nueva sombra corporativa en el universo Alien
+                                    </h5>
+                                    <span class="date">01/25</span>
+                                </div>
+                                <img src="./img/prodigy.jpg" class="card-img-top rounded-0 m-0"
+                                    alt="Prodigy Corp de Alien: Earth">
+                                <div class="card-body p-4">
+                                    <p class="card-text">En Alien: Earth, Prodigy Corp continúa la tradición de compañías
+                                        siniestras que buscan controlar lo incomprensible. Su influencia expande aún más
+                                        el trasfondo oscuro y fascinante de la saga.</p>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+
+
+
+            </div>
+
+        </div>
+
+
+        <div class="container-fluid">
+
+            <div class="modal" tabindex="-1" id="createpost">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Create a new post</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <label for="exampleFormControlTextarea1" class="form-label">Caption</label>
+                             <textarea class="form-control mb-2" placeholder="Add the caption of your post here" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            <button type="button" class="btn btn-sm btn-outline-secondary"><i class="fa-solid fa-camera text-dark"></i></button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary"><i class="fa-solid fa-location-dot text-dark"></i></button>
+                        </div>
+                        <div class="modal-icons">
+                        
+                    </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-success">Publish</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

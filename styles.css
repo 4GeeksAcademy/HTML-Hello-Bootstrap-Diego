@@ -1,0 +1,27 @@
+
+
+html{
+font-family: sans-serif;
+
+}
+
+h5{
+    margin:0;
+}
+
+.fa-instagram{
+    font-size:20px;
+
+}
+
+.nav-tabs{
+border:none !important;
+border: 0;
+}
+
+.card-head{
+display:flex;
+justify-content: space-between;
+
+}
+
